@@ -1,0 +1,32 @@
+.export-form {
+  width: 50%;
+  margin-top: 30px;
+  div.field {
+    margin-bottom: 16px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  input, .p-select, .p-multiselect {
+    width: 100%;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  .p-inputnumber {
+    button {
+      margin-top: 0;
+    }
+  }
+}
+
+.error-message {
+  color: red;
+  font-size: 13px;
+  margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+.container {
+  margin: 0 auto;
+  padding: 60px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  img {
+    width: 90px;
+  }
+
+  .p-menubar {
+    width: 100%;
+  }
+}
+
+.toast-register {
+  h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  p {
+    margin: 10px 0 14px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
